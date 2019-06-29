@@ -1,15 +1,32 @@
 body{
-
-
-
     background-image: url("https://www.thesuntoday.org/images/Wallpapers2/aia_304_sliver_wallpaper_1920x1080_pc.jpg");
     width: 90%;
     margin: 0 auto;
     color:white;
     margin-top: 60px;
     text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 32px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#game{
+    border: solid 2px #b42006;
+    border-radius: 10px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    #game{
+
+        width: 80%;
+  
+}
 }
